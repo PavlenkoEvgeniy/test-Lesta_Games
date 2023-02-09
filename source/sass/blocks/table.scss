@@ -1,0 +1,27 @@
+.table {
+	width: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.table thead {
+	th {
+		background-color: #55608f;
+    color: #fff;
+	}
+}
+
+.table tr,
+.table th,
+.table td {
+  border: 1px solid #55608f;
+}
+
+.table__number {
+  text-align: center;
+}
+
+.table td:not(.table__number) {
+  padding-left: 5px;
+}

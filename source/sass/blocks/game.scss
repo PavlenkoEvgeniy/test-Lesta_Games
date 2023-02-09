@@ -1,0 +1,21 @@
+.game {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.game__table {
+  border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: italic;
+
+  position: relative;
+}
+
+.game__cell {
+  width: 5em;
+  height: 5em;
+  border: 1px solid #000;
+  text-align: center;
+}

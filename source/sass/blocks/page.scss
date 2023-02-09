@@ -1,0 +1,18 @@
+.page {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.6;
+
+	background: linear-gradient(45deg, #49a09d, #5f2c82);
+}
+
+.page__body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
